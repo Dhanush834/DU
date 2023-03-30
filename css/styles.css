@@ -256,10 +256,109 @@
     padding-top: 25px;
 }
 
+/* contact me css */
 
+#Contact{
+    margin-top: 3%;
+    padding-bottom: 5%;
+}
 
+.h1-contact{
+    font-size: 5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 6% auto;
+    color: #333333;
+    margin-right: -4%;
+}
 
+#Contact .p1{
+    margin: 12.5% auto;
+    font-size: 2rem;
+    color: #898282;
+}
 
+#Contact .p2{
+    margin: -12% auto;
+    font-size: 1.4rem;
+    color: #333333;
+}
 
+#Contact .mobile{
+    display: flex;
+    margin: -10.5% auto auto 12%;
+    flex-direction: column;
+} 
 
+#Contact .call-icon{
+    margin: 22% auto auto 0;
+}
 
+#Contact .mobile-name,.links-name,.email-name{
+    color: #333333;
+    font-size: 1.8rem;
+    margin-bottom: 2px;
+} 
+
+#Contact .mobile-number{
+    font-size: 1.4rem;
+    color: #545454;
+}
+
+#Contact .email-icon,.chain{
+    margin: 7% auto;
+}
+
+#Contact .email,.links{
+    display: flex;
+    margin: -16.5% auto 0 12%;
+    flex-direction: column;
+}
+
+#Contact .email-link{
+    text-decoration: none;
+    color: #545454;
+    font-size: 1.4rem;
+    transition: color .4s .1s;
+}
+
+#Contact .social-icons{
+    margin-top: 1%;
+}
+
+#Contact .social-icons .icons{
+    margin-top: 1.5%;
+    margin-right:3%;
+    height:45px;
+    display:inline-block;
+    width: 40px;
+    border-radius: 100%;
+}
+
+#Contact .email-link:hover{
+    color: #1C9D9D;
+}
+
+#Contact  .social-icons a:hover{
+    box-shadow: 0 0 30px #1C9D9D;
+}
+
+/* copyright section */
+
+.copyright{
+    display: flex;
+    padding-bottom: 1.4%;
+    margin: 0 auto auto auto;
+    background-color: #575252;
+    align-content: center;
+    justify-content: center;
+}
+
+#rights p{
+    margin-bottom: 0;
+    margin-top: 8%;
+    font-size: 1.2rem;
+    color: #191515;
+}
