@@ -362,3 +362,67 @@
     font-size: 1.2rem;
     color: #191515;
 }
+
+/* project page css */
+
+.project-heading{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 4rem;
+}
+
+#projects .card-img-top {
+    height: max-content;
+    width: 70%;
+    margin-left: 18%;
+}
+
+#projects .project-row{
+    text-align: center;
+    justify-content: center;
+}
+
+#projects .project-cards{
+    padding: 2%;
+    margin: 4% 2% 0 0;
+    background-color: #D9D9D9;
+}
+
+#projects .card-text{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    color: #333333;
+}
+
+#projects .card-title {
+    margin-bottom: 0.75rem;
+    font-size: 2rem;
+    font-family: 'Poppins';
+}
+
+#projects .btn-dark{
+    width: 25%;
+    height: 22%;
+    margin: 3% 4% auto 0;
+}
+
+#projects a{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#projects a:hover{
+    color: #1C9D9D;
+}
+
+#projects .btn-dark.back-button{
+    width: 8%;
+    height: 9%;
+    border-radius: 100px;
+    position: fixed;
+    margin: .8% 3%;
+    font-size: 1.2rem;
+}
+#projects .btn-dark.back-button:hover{
+    color: #1C9D9D;
+}
