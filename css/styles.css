@@ -419,10 +419,74 @@
     width: 8%;
     height: 9%;
     border-radius: 100px;
-    position: fixed;
+    position: absolute;
     margin: .8% 3%;
     font-size: 1.2rem;
 }
 #projects .btn-dark.back-button:hover{
     color: #1C9D9D;
+}
+
+
+
+/*About-Me page Css */
+
+#about-me{
+    background-color: #D9D9D9;
+    padding-bottom: 6.3%;
+    color: #575252;
+    font-family: 'poppins';
+}
+
+#about-me .profile{
+    margin: 11.5%;
+    position: relative;
+}
+
+#about-me .btn-dark.back-button{
+    width: 8%;
+    height: 9%;
+    border-radius: 100px;
+    position: absolute;
+    margin: 2.5% 3%;
+    font-size: 1.2rem;
+}
+#about-me .btn-dark.back-button:hover{
+    color: #1C9D9D;
+}
+
+#about-me .Info{
+    position: relative;
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    margin: -40% auto auto 40%;
+    width: 50%;
+}
+
+#about-me h3{
+    font-size: 3rem;
+    color: #333333;
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+#about-me .c1{
+    margin-right: 5%;
+}
+
+#about-me .extra{
+    margin-left: 40%;
+    font-size: 1.3rem;
+}
+
+#about-me .lists{
+    display: flex;
+    margin-top: 3%;
+    line-height: 2;
+}
+
+#about-me h4{
+    font-size: 1.7rem;
+    color: #333333;
+    font-weight: 500;
 }
