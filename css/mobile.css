@@ -1,0 +1,178 @@
+@media (max-width:1505px){
+    .skill-rotated,.skill-line{
+        display: none;
+    }
+}
+
+@media (max-width:988px) and (min-width:515px){
+
+    #contact{
+        text-align: center;
+    }
+   
+    #intro .row{
+        text-align: center;
+    }
+
+    #Contact .h1-contact{
+        margin-right: 0px;
+    }
+
+    #intro .mobile{
+        padding:4%;
+    }
+
+    #intro .coding-pic{
+        margin: -11% auto 2% auto;
+    }
+
+    @media (min-width:558px)  and (max-width:750px) {
+        #skills{
+            padding: 4%;
+        }
+    }
+}
+
+
+@media (max-width:290px) {
+
+    #intro{
+        position: relative;
+    }
+
+    #intro .navbar-brand{
+        margin-left: -20px;
+        padding: 0%;
+    }
+
+    #intro .navbar-toggler{
+        margin: 2px -13px auto auto;
+        position: relative;
+    }
+
+    #intro .Hello{
+        font-size: 1.5rem;
+    }
+
+    #intro .h1-title{
+        font-size: 3rem;
+    }
+
+    #intro .skills-title{
+        font-size: 1.1rem;
+    }
+
+    #intro .mobile{
+        text-align: center;
+        margin-top: 20%;
+        padding-left: 15px;
+    }
+
+    #intro .btn{
+        width: 50%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #intro .coding-pic{
+        margin-top: 0;
+        padding-bottom: 15%;
+    }
+
+    #intro .container-fluid{
+        padding-top: 3%;
+    }
+
+    #skills .skills-heading{
+        font-size: 1.8rem;
+    }
+
+    #skills .skill-cards{
+        max-width: 37%;
+        align-items: center; 
+    }
+
+    #skills .btn{
+        margin: auto;
+        width: fit-content;
+        margin-top: 8%;
+        position: relative;
+    }
+
+    #Contact .h1-contact{
+        font-size: 3rem;
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    #Contact .call-icon,.chain{
+        width: 17%;
+        display: inherit;
+        margin-left: 6%;
+        position: relative;
+    }
+
+    #Contact .mobile {
+        display: flex;
+        margin: -26.5% auto auto 25%;
+        flex-direction: column;
+        position: relative;
+
+    }
+    
+    #Contact {
+        padding-right: 0px;
+        margin-top: 3%;
+        padding-bottom: 9%;
+    }
+
+    #Contact .email-icon{
+        width: 17%;
+        display: inherit;
+        margin-left: 7%;
+    }
+
+    #Contact .email,.links {
+        display: flex;
+        margin: -30.5% auto 0 25%;
+        flex-direction: column;
+    }
+
+    #Contact .mobile-number, .social-icons {
+        font-size: 1.2rem;
+    }
+
+    #Contact .email-link {
+        font-size: 1.1rem;
+        transition: color .4s .1s;
+    }
+
+    #Contact .social-icons .icons {
+        margin-top: 1.5%;
+        margin-right: 7%;
+        height: 0px;
+        display: inline-block;
+        width: 36px;
+        border-radius: 100%;
+    }
+
+    #rights p {
+        margin-bottom: 0;
+        margin-top: 3%;
+        font-size: 0.8rem;
+        align-content: center;
+        display: contents;
+    }
+
+    #Contact .p1 {
+        margin: 11.5% auto;
+        font-size: 2rem;
+    }
+
+    #Contact .p2 {
+        margin: -12% auto;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
