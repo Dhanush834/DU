@@ -1,2 +1,2 @@
-# DU
-#https://dhanush834.github.io/DU/
+#DU
+https://dhanush834.github.io/DU-Portfolio/
