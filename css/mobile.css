@@ -99,63 +99,6 @@
         position: relative;
     }
 
-    #Contact .h1-contact{
-        font-size: 3rem;
-        margin-right: 0px;
-        padding-right: 0px;
-    }
-
-    #Contact .call-icon,.chain{
-        width: 17%;
-        display: inherit;
-        margin-left: 6%;
-        position: relative;
-    }
-
-    #Contact .mobile {
-        display: flex;
-        margin: -26.5% auto auto 25%;
-        flex-direction: column;
-        position: relative;
-
-    }
-    
-    #Contact {
-        padding-right: 0px;
-        margin-top: 3%;
-        padding-bottom: 9%;
-    }
-
-    #Contact .email-icon{
-        width: 17%;
-        display: inherit;
-        margin-left: 7%;
-    }
-
-    #Contact .email,.links {
-        display: flex;
-        margin: -30.5% auto 0 25%;
-        flex-direction: column;
-    }
-
-    #Contact .mobile-number, .social-icons {
-        font-size: 1.2rem;
-    }
-
-    #Contact .email-link {
-        font-size: 1.1rem;
-        transition: color .4s .1s;
-    }
-
-    #Contact .social-icons .icons {
-        margin-top: 1.5%;
-        margin-right: 7%;
-        height: 0px;
-        display: inline-block;
-        width: 36px;
-        border-radius: 100%;
-    }
-
     #rights p {
         margin-bottom: 0;
         margin-top: 3%;
@@ -164,15 +107,33 @@
         display: contents;
     }
 
-    #Contact .p1 {
-        margin: 11.5% auto;
-        font-size: 2rem;
+    #Contact .mobile-con,.email-con,.social-con{
+        position: relative;
+        padding-left: 20%;
+        padding-top: 6%;
     }
 
-    #Contact .p2 {
-        margin: -12% auto;
-        font-size: 1.2rem;
+
+    #Contact .h1-contact{
+        padding-right: 0px;
+        margin-right: 0px;
+        font-size: 4rem;
+    }
+
+    #Contact .container-msg{
         text-align: center;
+        position: relative;
+        margin: -15% auto;
     }
 
+    #Contact .mobile{
+        position: relative;
+        margin: -20% auto;
+        margin-bottom: auto;
+        padding-left: 75px;
+    }
+
+    #Contact .email, .links {
+        margin: -25.5% auto 0 21%;
+    }
 }
