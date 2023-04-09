@@ -107,7 +107,7 @@
         display: contents;
     }
 
-    #Contact .mobile-con,.email-con,.social-con{
+    /* #Contact .mobile-con,.email-con,.social-con{
         position: relative;
         padding-left: 20%;
         padding-top: 6%;
@@ -135,5 +135,32 @@
 
     #Contact .email, .links {
         margin: -25.5% auto 0 21%;
+    } */
+
+    #Contact {
+        text-align: center;
     }
+
+    #Contact .email-icon,.call-icon,.chain{
+        display: none;
+    }
+
+    #Contact .mobile-con,.email-con,.social-con{
+        margin-top: 22%;
+        margin-left: -13%;
+    }
+
+    #Contact .p1 {
+        margin-top: 2%;
+    }
+
+    #Contact .links{
+        padding-top: 4%;
+    }
+
+    #Contact .h1-contact{
+        margin: 10px;
+    }
+
+
 }
