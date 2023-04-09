@@ -345,6 +345,10 @@
     box-shadow: 0 0 30px #1C9D9D;
 }
 
+#Contact .mobile-con,.email-con,.social-con{
+    padding: 0;
+}
+
 /* copyright section */
 
 .copyright{
