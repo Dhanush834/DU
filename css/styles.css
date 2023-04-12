@@ -438,19 +438,18 @@ a.email-link{
 
 /*About-Me page Css */
 
-#about-me{
+.about{
     background-color: #D9D9D9;
     padding-bottom: 6.3%;
     color: #575252;
     font-family: 'poppins';
 }
 
-#about-me .profile{
+.about .profile{
     margin: 11.5%;
-    position: relative;
 }
 
-#about-me .btn-dark.back-button{
+.about .btn-dark.back-button{
     width: 8%;
     height: 9%;
     border-radius: 100px;
@@ -458,12 +457,11 @@ a.email-link{
     margin: 2.5% 3%;
     font-size: 1.2rem;
 }
-#about-me .btn-dark.back-button:hover{
+.about .btn-dark.back-button:hover{
     color: #1C9D9D;
 }
 
-#about-me .Info{
-    position: relative;
+.about .Info{
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
@@ -471,29 +469,31 @@ a.email-link{
     width: 50%;
 }
 
-#about-me h3{
+.about h3{
     font-size: 3rem;
     color: #333333;
     font-family: 'Josefin Sans', sans-serif; 
 }
 
-#about-me .c1{
+.about .c1{
     margin-right: 5%;
 }
 
-#about-me .extra{
+.about .extra{
     margin-left: 40%;
     font-size: 1.3rem;
 }
 
-#about-me .lists{
+.about .lists{
     display: flex;
     margin-top: 3%;
     line-height: 2;
 }
 
-#about-me h4{
+.about h4{
     font-size: 1.7rem;
     color: #333333;
     font-weight: 500;
 }
+
+
