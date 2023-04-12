@@ -34,7 +34,9 @@
 }
 
 
-@media (max-width:600px) {
+@media (max-width:600px)
+
+{
 
     #intro{
         position: relative;
@@ -143,7 +145,89 @@
     #Contact .p2,.mobile-number,.email-link {
         font-size: 1.2rem;
     }
-        
     
+    /* about page css */
 
+    .about img.profile.mobile {
+        margin: 20%;
+        margin-top: 25%;
+    }
+
+    .about .con {
+        margin: 54% auto auto -55%;
+    }
+
+    .about h3 {
+        font-size: 2.5rem;
+    }
+
+    p.msg {
+        font-size: 1.2rem;
+    }
+
+    .about h4 {
+        font-size: 1.5rem;
+    }
+    
+    .about .lists {
+        font-size: 1.2rem;
+    }
+
+    .about .btn-dark.back-button {
+        width: 24%;
+        margin: 4.5% 3%;
+        height: 6%;
+    }
+
+
+    /* project page css */
+
+    #projects .btn-dark.back-button {
+        width: 21%;
+        height: 18%;
+        border-radius: 100px;
+        position: relative;
+        margin: 6.8% 5%;
+        font-size: 1.1rem;
+    }
+
+    .project-heading {
+        text-align: center;
+        margin-top: 1%;
+        font-size: 2.5rem;
+    }
+
+    #projects .project-row {
+        text-align: center;
+        justify-content: center;
+        padding: 10%;
+          padding-top: 10%;
+          padding-right: 10%;
+          padding-bottom: 10%;
+          padding-left: 10%;
+        margin-top: -8%;
+        margin-left: 6px;
+    }
+
+    #projects .card-img-top {
+        height: max-content;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 4%;
+    }
+
+    #projects .card-title {
+        font-size: 1.8rem;
+    }
+
+    #projects .card-text {
+        font-size: 1.1rem;
+    }
+
+    #projects .btn-dark {
+        width: 43%;
+        height: 16%;
+        margin: 3% 5% auto 1px;
+        text-align: center;
+    }
 }
