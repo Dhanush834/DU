@@ -107,59 +107,43 @@
         display: contents;
     }
 
-    /* #Contact .mobile-con,.email-con,.social-con{
-        position: relative;
-        padding-left: 20%;
-        padding-top: 6%;
+
+    /* Contact css */
+
+    #Contact h1.h1-contact.col-lg-6 {
+        font-size: 3rem;
+        padding: 0;
+        margin-right: 0;
     }
 
-
-    #Contact .h1-contact{
-        padding-right: 0px;
-        margin-right: 0px;
-        font-size: 4rem;
-    }
-
-    #Contact .container-msg{
-        text-align: center;
-        position: relative;
-        margin: -15% auto;
+    #Contact .col-lg-6.con-info {
+        padding: 3%;
+        margin-top: -12%;
+        margin-left: 6%;
     }
 
     #Contact .mobile{
         position: relative;
-        margin: -20% auto;
-        margin-bottom: auto;
-        padding-left: 75px;
+        margin: -15% auto auto 16%;
     }
 
-    #Contact .email, .links {
-        margin: -25.5% auto 0 21%;
-    } */
-
-    #Contact {
-        text-align: center;
+    #Contact .email,.links{
+        position: relative;
+        margin: -20% auto auto 16%;
     }
 
-    #Contact .email-icon,.call-icon,.chain{
-        display: none;
+    #Contact svg.email-icon,svg.call-icon,svg.chain {
+        padding: 2%;
     }
 
-    #Contact .mobile-con,.email-con,.social-con{
-        margin-top: 22%;
+    #Contact .p1,.mobile-name,.links-name, .email-name {
+        font-size: 1.5rem;
     }
 
-    #Contact .p1 {
-        margin-top: 2%;
+    #Contact .p2,.mobile-number,.email-link {
+        font-size: 1.2rem;
     }
-
-    #Contact .links{
-        padding-top: 4%;
-    }
-
-    #Contact .h1-contact{
-        margin: 10px;
-    }
-
+        
+    
 
 }
