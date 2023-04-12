@@ -124,12 +124,12 @@
 
     #Contact .mobile{
         position: relative;
-        margin: -16% auto auto 21%;
+        margin: -18% auto auto 21%;
     }
 
     #Contact .email,.links{
         position: relative;
-        margin: -21% auto auto 21%;
+        margin: -23% auto auto 21%;
     }
 
     #Contact svg.email-icon,svg.call-icon,svg.chain {
