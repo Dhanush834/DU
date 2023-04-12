@@ -296,13 +296,13 @@
     margin: 22% auto auto 0;
 }
 
-#Contact .mobile-name,.links-name,.email-name{
+.mobile-name,.links-name,.email-name{
     color: #333333;
     font-size: 1.8rem;
     margin-bottom: 2px;
 } 
 
-#Contact .mobile-number{
+.mobile-number{
     font-size: 1.4rem;
     color: #545454;
 }
@@ -317,7 +317,7 @@
     flex-direction: column;
 }
 
-#Contact .email-link{
+a.email-link{
     text-decoration: none;
     color: #545454;
     font-size: 1.4rem;
@@ -384,6 +384,9 @@
 #projects .project-row{
     text-align: center;
     justify-content: center;
+    padding: 6%;
+    margin-top: -6%;
+    margin-left: 0px;
 }
 
 #projects .project-cards{
